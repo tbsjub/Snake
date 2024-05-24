@@ -1,0 +1,10 @@
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.Form1.resources
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\bin\Debug\Practice.exe.config
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\bin\Debug\Practice.exe
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\bin\Debug\Practice.pdb
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.exe
+C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.pdb
