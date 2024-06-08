@@ -1,61 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\",
+  "WorkspaceRootPath": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:HomePage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|c:\\users\\yadur\\desktop\\sarita\u0027s college work\\windows form applications\\practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|c:\\users\\yadur\\desktop\\sarita\u0027s college work\\snake\\practice\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\twoplayers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\twoplayers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Practice||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Properties\\Resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Properties\\Resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Properties\\Resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,28 +69,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Circle.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Circle.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Circle.cs",
               "RelativeDocumentMoniker": "Circle.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Circle.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Circle.cs",
               "RelativeToolTip": "Circle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T19:11:32.815Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Properties\\Resources.resx",
               "RelativeToolTip": "Properties\\Resources.resx",
               "ViewState": "AQIAAGgAAAAAAAAAAADgv3gAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
@@ -96,37 +100,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TwoPlayers.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.Designer.cs",
-              "RelativeDocumentMoniker": "TwoPlayers.Designer.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.Designer.cs",
-              "RelativeToolTip": "TwoPlayers.Designer.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAmwI8AAAA+AAAA",
+              "DocumentIndex": 8,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Snake.cs",
+              "RelativeDocumentMoniker": "Snake.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Snake.cs",
+              "RelativeToolTip": "Snake.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T21:06:52.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:16:01.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAmwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:04:37.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TwoPlayers.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.cs",
               "RelativeDocumentMoniker": "TwoPlayers.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.cs",
               "RelativeToolTip": "TwoPlayers.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBwAAAAJAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwEEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T21:06:42.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "TwoPlayers.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.Designer.cs",
+              "RelativeDocumentMoniker": "TwoPlayers.Designer.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.Designer.cs",
+              "RelativeToolTip": "TwoPlayers.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:06:52.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Practice",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Practice.csproj",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Practice.csproj",
               "RelativeDocumentMoniker": "Practice.csproj",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Practice.csproj",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Practice.csproj",
               "RelativeToolTip": "Practice.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-31T20:54:53.104Z"
@@ -135,9 +163,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TwoPlayers.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.cs",
               "RelativeDocumentMoniker": "TwoPlayers.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\TwoPlayers.cs [Design]",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.cs [Design]",
               "RelativeToolTip": "TwoPlayers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T20:54:14.912Z",
@@ -145,49 +173,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Program.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T10:04:30.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "HomePage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.Designer.cs",
               "RelativeDocumentMoniker": "HomePage.Designer.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.Designer.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.Designer.cs",
               "RelativeToolTip": "HomePage.Designer.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAlwGAAAAA4AAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwHQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T00:21:53.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.cs",
               "RelativeToolTip": "HomePage.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAhwDYAAAAAAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAxwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T00:23:40.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\HomePage.cs [Design]",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.cs [Design]",
               "RelativeToolTip": "HomePage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T00:13:33.605Z",
@@ -195,51 +223,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAYwJAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:04:37.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAlwHMAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:03:36.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T11:03:36.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:03:16.892Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-19T11:03:16.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Settings.cs",
+              "DocumentMoniker": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Settings.cs",
               "RelativeDocumentMoniker": "Settings.cs",
-              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Windows Form Applications\\Practice\\Settings.cs",
+              "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Settings.cs",
               "RelativeToolTip": "Settings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:45:37.383Z"
             }

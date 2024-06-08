@@ -35,7 +35,7 @@
             this.startbtn = new System.Windows.Forms.Button();
             this.quitbtn = new System.Windows.Forms.Button();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
-            this.wall = new System.Windows.Forms.RadioButton();
+            this.wall = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,14 +106,15 @@
             // wall
             // 
             this.wall.AutoSize = true;
+            this.wall.BackColor = System.Drawing.Color.IndianRed;
             this.wall.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.wall.Location = new System.Drawing.Point(679, 12);
+            this.wall.Location = new System.Drawing.Point(691, 9);
             this.wall.Name = "wall";
-            this.wall.Size = new System.Drawing.Size(102, 24);
+            this.wall.Size = new System.Drawing.Size(68, 24);
             this.wall.TabIndex = 5;
-            this.wall.TabStop = true;
-            this.wall.Text = "No walls";
-            this.wall.UseVisualStyleBackColor = true;
+            this.wall.Text = "Wall";
+            this.wall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.wall.UseVisualStyleBackColor = false;
             // 
             // SinglePlayer
             // 
@@ -144,7 +145,7 @@
         private System.Windows.Forms.Button startbtn;
         private System.Windows.Forms.Button quitbtn;
         private System.Windows.Forms.Timer gameTimer;
-        private System.Windows.Forms.RadioButton wall;
+        private System.Windows.Forms.CheckBox wall;
     }
 }
 

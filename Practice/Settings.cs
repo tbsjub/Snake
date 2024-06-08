@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,8 +15,8 @@ namespace Practice
     internal class Settings
     {
 
-        public static int  Width { get; set; }
-        public static int Height { get; set; }
+        public int  Width { get; set; }
+        public int Height { get; set; }
 
         public static string directions;
 
@@ -24,5 +25,7 @@ namespace Practice
             Width = 16; Height = 16;
             directions = "right";
         }
+
+        
     }
 }

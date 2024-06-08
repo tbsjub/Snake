@@ -10,3 +10,15 @@ C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\
 C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.SinglePlayer.resources
 C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.HomePage.resources
 C:\Users\yadur\Desktop\Sarita's college work\Windows Form Applications\Practice\obj\Debug\Practice.TwoPlayers.resources
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.SinglePlayer.resources
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.HomePage.resources
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.TwoPlayers.resources
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.exe
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\obj\Debug\Practice.pdb
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\bin\Debug\Practice.exe.config
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\bin\Debug\Practice.exe
+C:\Users\yadur\Desktop\Sarita's college work\Snake\Practice\bin\Debug\Practice.pdb

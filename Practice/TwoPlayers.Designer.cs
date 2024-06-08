@@ -30,11 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.background = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.scoree = new System.Windows.Forms.Label();
+            this.highScoree = new System.Windows.Forms.Label();
             this.startbtn = new System.Windows.Forms.Button();
             this.backbtn = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.twoGameTimer = new System.Windows.Forms.Timer(this.components);
+            this.scoreee = new System.Windows.Forms.Label();
+            this.wall = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,25 +54,25 @@
             this.background.TabStop = false;
             this.background.Paint += new System.Windows.Forms.PaintEventHandler(this.Painting);
             // 
-            // label1
+            // scoree
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(57, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Score: 0";
+            this.scoree.AutoSize = true;
+            this.scoree.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.scoree.Location = new System.Drawing.Point(12, 13);
+            this.scoree.Name = "scoree";
+            this.scoree.Size = new System.Drawing.Size(145, 24);
+            this.scoree.TabIndex = 1;
+            this.scoree.Text = "Player1 Score: 0";
             // 
-            // label2
+            // highScoree
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(325, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "High Score:";
+            this.highScoree.AutoSize = true;
+            this.highScoree.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.highScoree.Location = new System.Drawing.Point(443, 13);
+            this.highScoree.Name = "highScoree";
+            this.highScoree.Size = new System.Drawing.Size(108, 24);
+            this.highScoree.TabIndex = 1;
+            this.highScoree.Text = "High Score:";
             // 
             // startbtn
             // 
@@ -98,19 +100,32 @@
             this.backbtn.UseVisualStyleBackColor = false;
             this.backbtn.Click += new System.EventHandler(this.goBackBtnClick);
             // 
-            // radioButton1
+            // twoGameTimer
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.radioButton1.Location = new System.Drawing.Point(669, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(106, 24);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "No Walls";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.twoGameTimer.Tick += new System.EventHandler(this.gameEventTimer);
             // 
-
+            // scoreee
+            // 
+            this.scoreee.AutoSize = true;
+            this.scoreee.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.scoreee.Location = new System.Drawing.Point(222, 13);
+            this.scoreee.Name = "scoreee";
+            this.scoreee.Size = new System.Drawing.Size(145, 24);
+            this.scoreee.TabIndex = 1;
+            this.scoreee.Text = "Player2 Score: 0";
+            // 
+            // wall
+            // 
+            this.wall.AutoSize = true;
+            this.wall.BackColor = System.Drawing.Color.IndianRed;
+            this.wall.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wall.Location = new System.Drawing.Point(660, 13);
+            this.wall.Name = "wall";
+            this.wall.Size = new System.Drawing.Size(70, 28);
+            this.wall.TabIndex = 3;
+            this.wall.Text = "Wall";
+            this.wall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.wall.UseVisualStyleBackColor = false;
             // 
             // TwoPlayers
             // 
@@ -118,16 +133,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1078, 503);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.wall);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.startbtn);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.highScoree);
+            this.Controls.Add(this.scoreee);
+            this.Controls.Add(this.scoree);
             this.Controls.Add(this.background);
             this.Name = "TwoPlayers";
             this.Text = "TwoPlayers";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyIsDown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyIsUp);
             ((System.ComponentModel.ISupportInitialize)(this.background)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,10 +151,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox background;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label scoree;
+        private System.Windows.Forms.Label highScoree;
         private System.Windows.Forms.Button startbtn;
         private System.Windows.Forms.Button backbtn;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Timer twoGameTimer;
+        private System.Windows.Forms.Label scoreee;
+        private System.Windows.Forms.CheckBox wall;
     }
 }

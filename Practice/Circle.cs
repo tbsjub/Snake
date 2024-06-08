@@ -9,7 +9,7 @@ namespace Practice
 
     /* this class will help us keep track of the x and y cordinates
         of each circle we draw */
-    internal class Circle
+    public class Circle
     {
 
         public int X { get; set; }

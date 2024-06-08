@@ -16,8 +16,10 @@ namespace Practice
 
         //this is the main part of the game
 
-        private List<Circle> snake = new List<Circle>();
+        private Snake snake;
         private Circle food = new Circle();
+
+        private Settings settings = new Settings();
 
         int maxWidth;     //maximum width the snake can travel
         int maxHeight;   // maximum height the snake can travel
@@ -28,105 +30,85 @@ namespace Practice
 
         Random rand = new Random();
 
-        bool goLeft, goRight, goUp, goDown;
-
         public SinglePlayer()
         {
             InitializeComponent();
-            new Settings();
         }
 
-
-        /* This function handles when certain keys are pressed down
-         * if the down key is pressed and the direction of the snake is 
-         * not up only then the snake's direction can be down so goDown is set
-         * to be true 
-         * Same reasoning for every directions */
-        /*
-        private void keyIsDown(object sender, KeyEventArgs e)
+        private void quitGame(object sender, EventArgs e)
         {
-            MessageBox.Show("key is down: " + e.KeyCode.ToString());
-            if (e.KeyCode == Keys.Left && Settings.directions != "right")
+            string message = "Do you really want to go back?";
+            string caption = "Going back";
+
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+
+            if (result == System.Windows.Forms.DialogResult.Yes)
             {
-                goLeft = true;
+                HomePage homePage = new HomePage();
+                homePage.Show();
+                this.Hide();
             }
 
-            if (e.KeyCode == Keys.Right && Settings.directions != "left")
-            {
-                goRight = true;
-            }
-
-            if (e.KeyCode == Keys.Up && Settings.directions != "down")
-            {
-                goUp = true;
-            }
-
-            if (e.KeyCode == Keys.Down && Settings.directions != "up")
-            {
-                goDown = true;
-            }
         }
 
-        //this function handles the case when keys are released 
-        private void keyIsUp(object sender, KeyEventArgs e)
+
+
+        private void startGame(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Left)
-            {
-                goLeft = false;
-            }
+            restartGame();
+        }
 
-            if (e.KeyCode == Keys.Right)
-            {
-                goRight = false;
-            }
+        private void restartGame()
+        {
+            maxWidth = background.Width / settings.Width - 1;
+            maxHeight = background.Height / settings.Height - 1;
 
-            if (e.KeyCode == Keys.Up)
-            {
-                goUp = false;
-            }
+            snake = new Snake(10, 10, settings.Width, settings.Height);
 
-            if (e.KeyCode == Keys.Down)
-            {
-                goDown = false;
-            }
+            startbtn.Enabled = false;
+            wall.Enabled = false;
+            score = 0;
+            Score.Text = "Score: " + score;
+
+
+
+            //generating food at the random coordinates in the canvas
+            food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
+
+            gameTimer.Start();
+
 
         }
-        */
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             switch (keyData)
             {
                 case Keys.Left:
-                    if (Settings.directions != "right")
+                    if (snake.Direction != "right")
                     {
-                        goLeft = true;
-                        goRight = goUp = goDown = false;
-                        Settings.directions = "left";
+                        snake.Direction = "left";
                     }
                     break;
                 case Keys.Right:
-                    if (Settings.directions != "left")
+                    if (snake.Direction != "left")
                     {
-                        goRight = true;
-                        goLeft = goUp = goDown = false;
-                        Settings.directions = "right";
+                        snake.Direction = "right";
                     }
                     break;
                 case Keys.Up:
-                    if (Settings.directions != "down")
+                    if (snake.Direction != "down")
                     {
-                        goUp = true;
-                        goLeft = goRight = goDown = false;
-                        Settings.directions = "up";
+                        snake.Direction = "up";
                     }
                     break;
                 case Keys.Down:
-                    if (Settings.directions != "up")
+                    if (snake.Direction != "up")
                     {
-                        goDown = true;
-                        goLeft = goRight = goUp = false;
-                        Settings.directions = "down";
+                        snake.Direction = "down";
                     }
                     break;
                 default:
@@ -136,79 +118,15 @@ namespace Practice
         }
 
 
-        private void startGame(object sender, EventArgs e)
-        {
-            restartGame();
-        }
-
-        private void quitGame(object sender, EventArgs e)
-        {
-            HomePage homePage = new HomePage();
-            homePage.Show();
-            this.Hide();
-
-        }
-
         private void gameEventTimer(object sender, EventArgs e)
         {
 
-            for (int i = snake.Count - 1; i >= 0; --i)
-            {
-                if (i == 0)
-                {
-                    switch (Settings.directions)
-                    {
-                        case "left":
-                            snake[i].X--;
-                            break;
+            (bool over, bool eat)= snake.Move(wall.Checked, maxWidth, maxHeight, food.X, food.Y);
 
-                        case "right":
-                            snake[i].X++;
-                            break;
+            if (over) gameOver();
+            if (eat) eatFood();
 
-                        case "up":
-                            snake[i].Y--;
-                            break;
-                        case "down":
-                            snake[i].Y++;
-                            break;
-                    }
-
-                    if (wall.Checked){ 
-                    if (snake[i].X < 0) snake[i].X = maxWidth;
-                    if (snake[i].X > maxWidth) snake[i].X = 0;
-                    if (snake[i].Y < 0) snake[i].Y = maxHeight;
-                    if (snake[i].Y > maxHeight) snake[i].Y = 0;
-                    }
-
-                    else
-                    {
-                        if (snake[i].X < 0 || snake[i].Y < 0 || snake[i].X > maxWidth || snake[i].Y > maxHeight)
-                        {
-                            gameOver();
-                        }
-                    }
-
-                    if (food.X == snake[i].X && food.Y == snake[i].Y)
-                        eatFood();
-
-                    for (int j = 1; j < snake.Count; ++j)
-                    {
-                        if (snake[i].X == snake[j].X && snake[i].Y == snake[j].Y)
-                            gameOver();
-                    }
-
-
-                }
-                //Every other body part is following the head
-                else
-                {
-                    snake[i].X = snake[i - 1].X;
-                    snake[i].Y = snake[i - 1].Y;
-                }
-        
-                
-            }
+            
 
             //this clears everything in the canvas and redraw it
             background.Invalidate();
@@ -220,9 +138,13 @@ namespace Practice
         {
             Graphics canvas = e.Graphics;
 
+            if (snake == null || snake.Body == null)
+                return; 
+
             Brush snakeColor;
 
-            for (int i = 0; i < snake.Count; i++)
+
+            for (int i = 0; i < snake.Body.Count; i++)
             {
                 if (i == 0)
                 {
@@ -235,9 +157,9 @@ namespace Practice
 
                 canvas.FillEllipse(snakeColor, new Rectangle
                     (
-                    snake[i].X * Settings.Width,
-                    snake[i].Y * Settings.Height,
-                    Settings.Width, Settings.Height
+                    snake.Body[i].X * settings.Width,
+                    snake.Body[i].Y * settings.Height,
+                    settings.Width, settings.Height
                     ));
             }
 
@@ -246,45 +168,13 @@ namespace Practice
             //drawing the food
             canvas.FillEllipse(Brushes.Red, new Rectangle
                     (
-                    food.X * Settings.Width,
-                    food.Y * Settings.Height,
-                    Settings.Width, Settings.Height
+                    food.X * settings.Width,
+                    food.Y * settings.Height,
+                    settings.Width, settings.Height
                     ));
         }
 
 
-        private void restartGame()
-        {
-            maxWidth = background.Width / Settings.Width - 1;
-            maxHeight = background.Height / Settings.Height - 1;
-
-            snake.Clear();     //emptying the snake 
-
-            startbtn.Enabled = false;
-            wall.Enabled = false;
-            score = 0;
-            Score.Text = "Score: " + score;
-
-            Circle head = new Circle { X = 10, Y = 10 };
-            snake.Add(head);   //adding the head to the list
-
-            
-
-            //Adding body to the list
-            for (int i= 0; i < 5; i++)
-            {
-                Circle body = new Circle();
-                snake.Add(body);
-            }
-
-
-            //generating food at the random coordinates in the canvas
-            food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
-
-            gameTimer.Start();
-
-
-        }
 
         private void eatFood()
         {
@@ -292,8 +182,7 @@ namespace Practice
             Score.Text = "Score: " + score;
 
             //making the new segment for the snake whose X and Y cordinates are the end of the existing snake
-            Circle body = new Circle { X = snake[snake.Count - 1].X, Y = snake[snake.Count - 1].Y };
-            snake.Add(body);
+            snake.Grow();
 
             food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
 
@@ -309,8 +198,6 @@ namespace Practice
                 HighScore = score;
                 highScore.Text = "High Score: " + HighScore;
             }
-
-
 
         }
     }
