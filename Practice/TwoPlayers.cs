@@ -1,5 +1,4 @@
-﻿using Practice.Properties;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +25,11 @@ namespace Practice
         Random rand = new Random();
 
         Settings settings = new Settings();
+
+        bool isGameRunning = false;
+
+        Queue<string> snake1Directions = new Queue<string>();
+        Queue<string> snake2Directions = new Queue<string>();
 
         public TwoPlayers()
         {
@@ -72,6 +76,8 @@ namespace Practice
             food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
 
             twoGameTimer.Start();
+
+            isGameRunning = true;
         }
 
         private void Painting(object sender, PaintEventArgs e)
@@ -137,66 +143,91 @@ namespace Practice
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
+            if (!isGameRunning)
+            {
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+
+            string snake1Direction = null;
+            string snake2Direction = null;
+
             switch (keyData)
             {
                 case Keys.Left:
                     if (snake1.Direction != "right")
                     {
-                        snake1.Direction = "left";
+                        snake1Direction = "left";
                     }
                     break;
                 case Keys.Right:
                     if (snake1.Direction != "left")
                     {
-                        snake1.Direction = "right";
+                        snake1Direction = "right";
                     }
                     break;
                 case Keys.Up:
                     if (snake1.Direction != "down")
                     {
-                        snake1.Direction = "up";
+                        snake1Direction = "up";
                     }
                     break;
                 case Keys.Down:
                     if (snake1.Direction != "up")
                     {
-                        snake1.Direction = "down";
+                        snake1Direction = "down";
                     }
                     break;
                 case Keys.D:
                     if (snake2.Direction != "left")
                     {
-                        snake2.Direction = "right";
+                        snake2Direction = "right";
                     }
                     break;
                 case Keys.A:
                     if (snake2.Direction != "right")
                     {
-                        snake2.Direction = "left";
+                        snake2Direction = "left";
                     }
                     break;
                 case Keys.W:
                     if (snake2.Direction != "down")
                     {
-                        snake2.Direction = "up";
+                        snake2Direction = "up";
                     }
                     break;
                 case Keys.S:
                     if (snake2.Direction != "up")
                     {
-                        snake2.Direction = "down";
+                        snake2Direction = "down";
                     }
                     break;
                 default:
                     return base.ProcessCmdKey(ref msg, keyData);
             }
 
+            if (snake1Direction != null)
+                snake1Directions.Enqueue(snake1Direction);
+
+            if (snake2Direction != null)
+                snake2Directions.Enqueue(snake2Direction);
 
             return true; // Indicate that the key has been handled
         }
 
         private void gameEventTimer(object sender, EventArgs e)
         {
+            if (snake2Directions.Count > 0)
+            {
+                string nextDirection2 = snake2Directions.Dequeue();
+                snake2.Direction = nextDirection2;
+            }
+
+            if (snake1Directions.Count > 0)
+            {
+                string nextDirection1 = snake1Directions.Dequeue();
+                snake1.Direction = nextDirection1;
+            }
+
             (bool over1, bool eat1) = snake1.Move(wall.Checked, maxWidth, maxHeight, food.X, food.Y);
 
             if (over1 || checkCollision(snake1,snake2)) gameOver();
@@ -260,6 +291,8 @@ namespace Practice
                 highScore = maxScore;
                 highScoree.Text = $"High Score: {highScore}";
             }
+
+            isGameRunning = false;
                 
         }
 

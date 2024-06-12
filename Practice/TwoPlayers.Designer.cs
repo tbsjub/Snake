@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TwoPlayers));
             this.background = new System.Windows.Forms.PictureBox();
             this.scoree = new System.Windows.Forms.Label();
             this.highScoree = new System.Windows.Forms.Label();
@@ -140,6 +141,7 @@
             this.Controls.Add(this.scoreee);
             this.Controls.Add(this.scoree);
             this.Controls.Add(this.background);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TwoPlayers";
             this.Text = "TwoPlayers";
             ((System.ComponentModel.ISupportInitialize)(this.background)).EndInit();

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SinglePlayer));
             this.background = new System.Windows.Forms.PictureBox();
             this.Score = new System.Windows.Forms.Label();
             this.highScore = new System.Windows.Forms.Label();
@@ -127,6 +128,7 @@
             this.Controls.Add(this.highScore);
             this.Controls.Add(this.Score);
             this.Controls.Add(this.background);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Name = "SinglePlayer";
             this.Text = "Single Player";

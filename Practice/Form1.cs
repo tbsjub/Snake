@@ -30,6 +30,10 @@ namespace Practice
 
         Random rand = new Random();
 
+        bool isGameRunning = false;
+
+        Queue<string> directionQueue = new Queue<string>();
+
         public SinglePlayer()
         {
             InitializeComponent();
@@ -51,6 +55,8 @@ namespace Practice
                 homePage.Show();
                 this.Hide();
             }
+
+            isGameRunning = false;
 
         }
 
@@ -78,6 +84,7 @@ namespace Practice
             //generating food at the random coordinates in the canvas
             food = new Circle { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
 
+            isGameRunning = true;
             gameTimer.Start();
 
 
@@ -85,41 +92,55 @@ namespace Practice
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
+
+            if (!isGameRunning)
+            { return base.ProcessCmdKey(ref msg, keyData); }
+
+            string newDirection = null;
             switch (keyData)
             {
                 case Keys.Left:
                     if (snake.Direction != "right")
                     {
-                        snake.Direction = "left";
+                        newDirection = "left";
                     }
                     break;
                 case Keys.Right:
                     if (snake.Direction != "left")
                     {
-                        snake.Direction = "right";
+                        newDirection = "right";
                     }
                     break;
                 case Keys.Up:
                     if (snake.Direction != "down")
                     {
-                        snake.Direction = "up";
+                        newDirection = "up";
                     }
                     break;
                 case Keys.Down:
                     if (snake.Direction != "up")
                     {
-                        snake.Direction = "down";
+                        newDirection = "down";
                     }
                     break;
                 default:
                     return base.ProcessCmdKey(ref msg, keyData);
             }
+
+            if (newDirection != null)
+                directionQueue.Enqueue(newDirection);
+
             return true; // Indicate that the key has been handled
         }
 
 
         private void gameEventTimer(object sender, EventArgs e)
         {
+            while (directionQueue.Count > 0)
+            {
+                string nextDirection = directionQueue.Dequeue();
+                snake.Direction = nextDirection;
+            }
 
             (bool over, bool eat)= snake.Move(wall.Checked, maxWidth, maxHeight, food.X, food.Y);
 

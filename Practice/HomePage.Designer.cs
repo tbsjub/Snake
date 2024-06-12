@@ -127,6 +127,7 @@ namespace Practice
             this.Controls.Add(this.label1);
             this.Controls.Add(this.welcome);
             this.Controls.Add(this.background1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HomePage";
             this.Text = "HomePage";
             ((System.ComponentModel.ISupportInitialize)(this.background1)).EndInit();
