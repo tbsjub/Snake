@@ -1,6 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+/*
+ * This class makes a snake and has properties to get and set values for the snake body, direction, 
+ * and dimension of each segment of the body.
+ * It takes the (x,y) coordinates for the position of the snake, width and height as the arguments to 
+ * initialize a snake.
+ * 
+ * It has a method "Move" which does basically what it is called. It moves the snake based on the direction
+ * of the snake. It also checks if any of the game over conditions are met or if the snake's head made contact
+ * with the food (snake ate food) and returns boolean value for gameOver and eatFood. 
+ * 
+ * It also has a method "Grow" which add a new segment to the body of snake.
+ */
 namespace Practice
 {
     public class Snake

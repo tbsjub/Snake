@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace Practice
 {
 
-    /* this class will help us keep track of the x and y cordinates
-        of each circle we draw */
+     /* this class will help us keep track of the x and y cordinates
+      *of each circle we draw 
+      */
     public class Circle
     {
 

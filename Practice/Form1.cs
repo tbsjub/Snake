@@ -1,21 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Practice
 {
     public partial class SinglePlayer : Form
     {
-
-        //this is the main part of the game
-
         private Snake snake;
         private Circle food = new Circle();
 
@@ -28,10 +19,11 @@ namespace Practice
         int score;
         int HighScore;
 
-        Random rand = new Random();
+        Random rand = new Random();   //for generating random coordinates for food position
 
         bool isGameRunning = false;
 
+        //queue to store the direction for precision.
         Queue<string> directionQueue = new Queue<string>();
 
         public SinglePlayer()
@@ -39,6 +31,7 @@ namespace Practice
             InitializeComponent();
         }
 
+        //the function to handle the go back button click.
         private void quitGame(object sender, EventArgs e)
         {
             string message = "Do you really want to go back?";
@@ -61,12 +54,18 @@ namespace Practice
         }
 
 
-
+        //when start button is clicked the restart game function is callled.
         private void startGame(object sender, EventArgs e)
         {
             restartGame();
         }
 
+        /*
+         * First the maximum width and height the snake can travel is calculated
+         * The snake is made
+         * The food is generated.
+         * And game timer is started.
+         */
         private void restartGame()
         {
             maxWidth = background.Width / settings.Width - 1;
@@ -90,6 +89,11 @@ namespace Practice
 
         }
 
+        /*
+         * Handles the key press action. 
+         * Checks for the snake direction and the corresponding direction according
+         * to the key pressed is enqued in the queue.
+         */
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
 
@@ -134,6 +138,10 @@ namespace Practice
         }
 
 
+        /*
+         * Once the game is started, the move method of snake is called. If either game
+         * was over or the snake ate food then respective functions are called.
+         */
         private void gameEventTimer(object sender, EventArgs e)
         {
             while (directionQueue.Count > 0)
@@ -196,7 +204,8 @@ namespace Practice
         }
 
 
-
+        //if the coordinate of snake's head food was matched then eatfood is called
+        //which increases the score and calls the grow method from snake class and create another food
         private void eatFood()
         {
             score += 1;
@@ -209,6 +218,8 @@ namespace Practice
 
         }
 
+        //once the game is over, game timer is stopped
+        //the buttons are enabled again and highscore is updated
         private void gameOver()
         {
             gameTimer.Stop();
@@ -220,6 +231,7 @@ namespace Practice
                 highScore.Text = "High Score: " + HighScore;
             }
 
+            isGameRunning = false;
         }
     }
 }

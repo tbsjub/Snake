@@ -121,7 +121,7 @@
   <data name="background1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAf4AAAHpCAYAAABjvF4GAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7s3Qn8XvOVP/B/W2qt2ILad1V00WWmu5bOtNOZ7u2UjuqmZopWN3tR
+        wAAADsABataJCQAA/7JJREFUeF7s3Qn8XvOVP/B/W2qt2ILad1V00WWmu5bOtNOZ7u2UjuqmZopWN3tR
         S0vtW6wRBCXEFiGxJEhESCQigghSEhGxRAkSkjz/8769xyuztI0ivyTOeb3u6z7PXb73u5xzPp9zvt/7
         PP+vpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSk
         pKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSk
@@ -1660,6 +1660,9 @@
         Br0RowAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="textBox1.Text" xml:space="preserve">
     <value>Instruction!
 

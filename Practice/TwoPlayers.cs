@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Practice
 {
+    //A lot of things in this form is similar to that for the single player 
+    //everything from form1 has been adjusted to work for the two snakes
     public partial class TwoPlayers : Form
     {
 
@@ -37,7 +34,7 @@ namespace Practice
         }
 
 
-
+        //handles the go back button click.
         private void goBackBtnClick(object sender, EventArgs e)
         {
             string message = "Do you really want to go back?";
@@ -140,6 +137,7 @@ namespace Practice
             settings.Width, settings.Height
             ));
         }
+
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
@@ -267,6 +265,7 @@ namespace Practice
             snake2.Grow();
         }
 
+        //it checks for the collision between two snakes
         private bool checkCollision(Snake snakeA, Snake snakeB)
         {
             foreach (var segment in snakeB.Body)
@@ -278,6 +277,8 @@ namespace Practice
             }
             return false;
         }
+
+
         private void gameOver()
         {
             twoGameTimer.Stop();
