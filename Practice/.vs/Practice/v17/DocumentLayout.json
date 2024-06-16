@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|c:\\users\\yadur\\desktop\\sarita\u0027s college work\\snake\\practice\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Practice||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|c:\\users\\yadur\\desktop\\sarita\u0027s college work\\snake\\practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:twoplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -60,9 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|solutionrelative:homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A409842-295B-44F1-A4F7-490B74CC9F04}|Practice.csproj|c:\\users\\yadur\\desktop\\sarita\u0027s college work\\snake\\practice\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,8 +95,7 @@
               "ViewState": "AQIAAHgAAAAAAAAAAAAAAHgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-05-25T01:04:07.599Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T11:04:37.701Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -125,8 +120,7 @@
               "RelativeToolTip": "Snake.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:16:01.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:16:01.942Z"
             },
             {
               "$type": "Document",
@@ -138,8 +132,7 @@
               "RelativeToolTip": "TwoPlayers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T21:06:42.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T21:06:42.326Z"
             },
             {
               "$type": "Document",
@@ -151,8 +144,7 @@
               "RelativeToolTip": "TwoPlayers.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T21:06:52.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T21:06:52.938Z"
             },
             {
               "$type": "Document",
@@ -163,8 +155,7 @@
               "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Practice.csproj",
               "RelativeToolTip": "Practice.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-31T20:54:53.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T20:54:53.104Z"
             },
             {
               "$type": "Document",
@@ -175,8 +166,7 @@
               "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\TwoPlayers.cs [Design]",
               "RelativeToolTip": "TwoPlayers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T20:54:14.912Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-31T20:54:14.912Z"
             },
             {
               "$type": "Document",
@@ -188,8 +178,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T10:04:30.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T10:04:30.956Z"
             },
             {
               "$type": "Document",
@@ -201,8 +190,7 @@
               "RelativeToolTip": "HomePage.Designer.cs",
               "ViewState": "AQIAAGwAAAAAAAAAAAAYwHQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T00:21:53.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T00:21:53.324Z"
             },
             {
               "$type": "Document",
@@ -214,8 +202,7 @@
               "RelativeToolTip": "HomePage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T00:23:40.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T00:23:40.776Z"
             },
             {
               "$type": "Document",
@@ -226,8 +213,7 @@
               "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\HomePage.cs [Design]",
               "RelativeToolTip": "HomePage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T00:13:33.605Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-25T00:13:33.605Z"
             },
             {
               "$type": "Document",
@@ -239,8 +225,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:03:36.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T11:03:36.494Z"
             },
             {
               "$type": "Document",
@@ -251,8 +236,7 @@
               "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:03:16.892Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-19T11:03:16.892Z"
             },
             {
               "$type": "Document",
@@ -262,7 +246,7 @@
               "RelativeDocumentMoniker": "Settings.cs",
               "ToolTip": "C:\\Users\\yadur\\Desktop\\Sarita\u0027s college work\\Snake\\Practice\\Settings.cs",
               "RelativeToolTip": "Settings.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAANAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:45:37.383Z",
               "EditorCaption": ""
