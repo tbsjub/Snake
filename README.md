@@ -59,11 +59,7 @@ Contributions to the project are welcome! If you'd like to contribute, please fo
 3. Make your changes and commit them with descriptive messages.
 4. Push your changes to your fork.
 5. Submit a pull request to the main repository.
-
-## License
-Author: Sarita Pokhrel
-
-Copyright © Charles University
+   
 
 ## License
 Author: Sarita Pokhrel  
