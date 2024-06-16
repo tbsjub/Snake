@@ -61,6 +61,6 @@ Contributions to the project are welcome! If you'd like to contribute, please fo
 5. Submit a pull request to the main repository.
 
 ## License
-Author: Sarita Pokhrel
-Copyright © Charles University
-Licensed under the Apache License, Version 2.0.
+-Author: Sarita Pokhrel
+-Copyright © Charles University
+-Licensed under the Apache License, Version 2.0.
