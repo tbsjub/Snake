@@ -43,7 +43,7 @@ Before running the game, ensure you have the following installed:
 
 ## Game Controls
 - For single player:
-  - *Arrow Keys*: Move the snake to the corresponding directions.
+  - *Arrow Keys*: Move the snake in the corresponding directions.
 - For two players:
   - Player 1 (Yellow-headed): Use *Arrow Keys* to move.
   - Player 2 (Purple headed): Use *A*, *S*, *W*, *D*:
@@ -61,4 +61,6 @@ Contributions to the project are welcome! If you'd like to contribute, please fo
 5. Submit a pull request to the main repository.
 
 ## License
-This project is licensed under the [Charles University License](LICENSE).
+Author: Sarita Pokhrel
+Copyright © Charles University
+Licensed under the Apache License, Version 2.0.
